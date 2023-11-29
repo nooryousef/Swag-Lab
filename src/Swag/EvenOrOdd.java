@@ -52,11 +52,11 @@ public void myTest() {
 		
 		if  ( intprice %2 ==0 ) {
 			
-			System.out.println( "my item is" + mYitems +" and Its Price is  " + finalprice +" **the final price is an Even number ** ");
+			System.out.println( "my item is " + mYitems +" and Its Price is  " + finalprice +"    **the final price is an Even number ** ");
 
 		}else {
 			
-			System.out.println( "my item is" + mYitems +" and Its Price is  " + finalprice +"** the final price is an odd number ** ");
+			System.out.println( "my item is" + mYitems +" and Its Price is  " + finalprice +"   ** the final price is an odd number ** ");
 		}
 		 }
 
