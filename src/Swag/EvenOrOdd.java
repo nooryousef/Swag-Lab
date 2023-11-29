@@ -47,10 +47,10 @@ public void myTest() {
 		double  therealPrice=Double.parseDouble(editPrice);
 		double  Tax=therealPrice*0.10 ;
 		double finalprice=therealPrice+Tax ;
-		
+		int intprice = (int)finalprice;
 
 		
-		if (finalprice % 2 == 0 ) {
+		if  ( intprice %2 ==0 ) {
 			
 			System.out.println( "my item is" + mYitems +" and Its Price is  " + finalprice +" **the final price is an Even number ** ");
 
