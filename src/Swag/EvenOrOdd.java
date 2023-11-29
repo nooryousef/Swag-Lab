@@ -45,7 +45,7 @@ public void myTest() {
 		String  pricefirst=ItemsPrice.get(i).getText();
 		String editPrice= pricefirst.replace("$" ," ");
 		double  therealPrice=Double.parseDouble(editPrice);
-		double  Tax=therealPrice*0.12 ;
+		double  Tax=therealPrice*0.10 ;
 		double finalprice=therealPrice+Tax ;
 		
 
